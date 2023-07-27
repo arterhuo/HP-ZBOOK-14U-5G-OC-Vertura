@@ -14,6 +14,14 @@
                     <key>Path</key>
                     <string>SSDT-OLARILA-MOBILE.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-AWAC.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array/>
@@ -29,7 +37,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>oAqTU1RBUwE=</data>
                     <key>Limit</key>
@@ -173,7 +181,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.2</string>
+                    <string>V1.3.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -191,7 +199,7 @@
                     <key>BundlePath</key>
                     <string>AirportBrcmFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.7</string>
+                    <string></string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -281,7 +289,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.3</string>
+                    <string>V1.7.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -335,7 +343,7 @@
                     <key>BundlePath</key>
                     <string>ECEnabler.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.4</string>
+                    <string>V1.0.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -389,7 +397,7 @@
                     <key>BundlePath</key>
                     <string>USBInjectAll.kext</string>
                     <key>Comment</key>
-                    <string>V0.8.0</string>
+                    <string>V0.8</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
@@ -820,9 +828,9 @@
                 <key>LogModules</key>
                 <string>*</string>
                 <key>SysReport</key>
-                <false/>
+                <true/>
                 <key>Target</key>
-                <integer>0</integer>
+                <integer>64</integer>
             </dict>
             <key>Entries</key>
             <array/>
